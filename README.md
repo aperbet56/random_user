@@ -20,3 +20,4 @@ Lien vers le projet : https://aperbet56.github.io/random_user/
 - JavaScript
 - Code JavaScript commenté
 - API Random User Generator : https://randomuser.me/api
+- Desktop first
