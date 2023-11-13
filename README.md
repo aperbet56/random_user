@@ -7,7 +7,7 @@ Afin d'obtenir un nouvel utilisateur, il suffit de cliquer sur le bouton "Obteni
 
 ## Lien vers le projet
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/random_user/
 
 ## Développez avec
 
