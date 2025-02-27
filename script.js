@@ -2,12 +2,12 @@
 const card = document.querySelector(".card");
 const generateBtn = document.querySelector(".generate__btn");
 
-// Création de la variables data qui va stocker les données renvoyées par l'API
+// Création de la variable data qui va stocker les données renvoyées par l'API
 let data = [];
 
-// Déclaration de la fonction fetchUsers qui va permettre d'obtenir les données d'un utilisateur
+// Déclaration de la fonction asynchrone fetchUsers qui va permettre de générere les données d'un utilisateur
 const fetchUsers = async () => {
-  await fetch("https://randomuser.me/api")
+  await fetch("https://randomuser.me/api?nat=fr")
     .then(function (res) {
       if (res.ok) {
         return res.json();
@@ -35,16 +35,16 @@ const displayUser = () => {
   card.innerHTML = `
   <div class = "card__header">
     <div class = "user__image">
-      <img src = "${user.picture.large}" alt = "Photo de ${user.name.title} ${user.name.first} ${user.name.last}">
+      <img src = "${user.picture.large}" alt = "Photo de ${user.name.first} ${user.name.last}">
     </div>
     <div class = "user__name">
-      <span class = "user__name__full">${user.name.title} ${user.name.first} ${user.name.last}</span>
+      <span class = "user__name__full">${user.name.first} ${user.name.last}</span>
       <span class = "user__age">${user.dob.age} ans</span>
     </div>
   </div>
 
   <div class = "card__body">
-    <span>${user.location.city}, ${user.location.country}</span>
+    <span>${user.location.city}</span>
   </div>
 
   <div class = "card__footer">
