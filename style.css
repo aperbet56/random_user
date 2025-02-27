@@ -141,3 +141,28 @@ footer span {
     font-weight: bold;
     text-align: center;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 572px) {
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .card__header {
+        margin-top: 10px;
+    }
+
+    .user__image {
+        width: 230px;
+        height: 230px;
+    }
+
+    .card__body {
+        align-self: center;
+        margin: 15px 0;
+    }
+}
