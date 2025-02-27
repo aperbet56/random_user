@@ -37,31 +37,23 @@ const displayUser = () => {
     <div class = "user__image">
       <img src = "${user.picture.large}" alt = "Photo de ${user.name.first} ${user.name.last}">
     </div>
+  </div>
+
+  <div class = "card__body">
     <div class = "user__name">
       <span class = "user__name__full">${user.name.first} ${user.name.last}</span>
       <span class = "user__age">${user.dob.age} ans</span>
     </div>
-  </div>
-
-  <div class = "card__body">
     <span>${user.location.city}</span>
-  </div>
-
-  <div class = "card__footer">
-  
-    <span>
-      <i class = "fas fa-phone"></i> 
-      ${user.phone}
-    </span>
     <span>
       <i class = "fa-solid fa-mobile-button"></i> 
-      ${user.cell}
+    ${user.cell}
     </span>
     <a href = "mailto:${user.email}">
       <i class = "fas fa-envelope"></i>
-      ${user.email}
+    ${user.email}
     </a>
-  </div
+  </div>
   `;
 };
 
