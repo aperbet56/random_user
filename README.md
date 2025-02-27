@@ -1,4 +1,4 @@
-## RANDOM USER
+## RANDOM USER 👤
 
 ## Le challenge
 
@@ -15,6 +15,7 @@ Lien vers le projet : https://aperbet56.github.io/random_user/
 - CSS
 - Flexbox
 - Animation CSS
+- Importation de la police "Oswald"
 - Page web responsive
 - Utilisation d'un normaliseur : normalize.css
 - JavaScript
