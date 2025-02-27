@@ -21,7 +21,7 @@ const fetchUsers = async () => {
     })
     .catch(function (error) {
       // Affichage d'un message d'erreur dans la console
-      console.log("Désolé, une erreur est survenue sur le serveur.");
+      console.error("Désolé, une erreur est survenue sur le serveur.");
     });
 };
 // Appel de la fonction fetchUsers()
