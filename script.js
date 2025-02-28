@@ -5,7 +5,7 @@ const generateBtn = document.querySelector(".generate__btn");
 // Création de la variable data qui va stocker les données renvoyées par l'API
 let data = [];
 
-// Déclaration de la fonction asynchrone fetchUsers qui va permettre de générere les données d'un utilisateur
+// Déclaration de la fonction asynchrone fetchUsers qui va permettre de générer les données d'un utilisateur
 const fetchUsers = async () => {
   await fetch("https://randomuser.me/api?nat=fr")
     .then(function (res) {
